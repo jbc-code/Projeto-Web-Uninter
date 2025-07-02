@@ -1,6 +1,6 @@
 # Portfólio Pessoal - Júlia Coelho
 
-Este projeto é um **portfólio pessoal simples**,criado somente com html e css desenvolvido como parte de atividade acadêmica no curso de Análise e Desenvolvimento de Sistemas. Ele apresenta minhas informações, formação, trabalhos desenvolvidos e um formulário de contato funcional.
+Este projeto é um **portfólio pessoal simples**, criado somente com html e css desenvolvido como parte de atividade acadêmica no curso de Análise e Desenvolvimento de Sistemas. Ele apresenta minhas informações, formação, trabalhos desenvolvidos e um formulário de contato funcional.
 
 ---
 
