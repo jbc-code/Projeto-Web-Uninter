@@ -1,0 +1,160 @@
+/* Reseta */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: #f5fdf6;
+    color: #333;
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  /* Navegação lateral */
+  nav {
+    width: 220px;
+    background: #268e79;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 15px;
+  }
+  
+  nav h2 {
+    margin-bottom: 30px;
+  }
+  
+  nav ul {
+    list-style: none;
+    width: 100%;
+  }
+  
+  nav li {
+    margin: 15px 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+  nav a:hover {
+    background: hwb(#268e79);
+    transform: translateX(5px);
+  }
+  
+  /* Conteúdo principal */
+  main {
+    flex: 1;
+    padding: 40px;
+  }
+  
+  main h1 {
+    margin-bottom: 20px;
+    color: #268e79;
+  }
+  
+  /* Portfólio lista */
+  .portfolio-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .portfolio-list li {
+    background: #ffffff;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+  }
+  
+  .portfolio-list li:hover {
+    transform: scale(1.02);
+  }
+  
+  .portfolio-list a {
+    color: #268e79;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .portfolio-list a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Formulário */
+  form {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    max-width: 600px;
+  }
+  
+  form label {
+    display: block;
+    margin: 15px 0 5px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    transition: border 0.3s;
+  }
+  
+  form input:focus,
+  form textarea:focus {
+    border-color: #268e79;
+    outline: none;
+  }
+  
+  form button {
+    background: #268e79;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  form button:hover {
+    background: #268e79;
+  }
+  
+  /* Responsivo */
+  @media (max-width: 768px) {
+    body {
+      flex-direction: column;
+    }
+  
+    nav {
+      width: 100%;
+      flex-direction: row;
+      justify-content: space-around;
+      padding: 15px;
+    }
+  
+    nav h2 {
+      display: none;
+    }
+  
+    main {
+      padding: 20px;
+    }
+  }
+  
